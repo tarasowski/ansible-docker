@@ -1,0 +1,7 @@
+- name: Run nginx container
+  docker_container:
+    name: nginx
+    image: nginx:latest
+    state: started
+    published_ports:
+      - "80:80"

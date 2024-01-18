@@ -1,0 +1,10 @@
+---
+- hosts: servers
+  become: yes
+  roles:
+    - geerlingguy.docker
+  tasks:
+    - import_tasks: tasks/docker.yml
+      tags: docker
+    - import_tasks: tasks/nginx.yml
+      tags: nginx
