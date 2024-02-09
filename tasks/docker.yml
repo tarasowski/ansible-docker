@@ -1,5 +1,5 @@
 - name: Ensure docker is started
-  service:
+  ansible.builtin.service:
     name: docker
     state: started
     enabled: yes
