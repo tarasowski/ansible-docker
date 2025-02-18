@@ -4,5 +4,5 @@
 ---
 - src: geerlingguy.docker
   version: 7.0.2
-- src: https://github.com/geerlingguy/ansible-role-docker.git
-  version: master
+#- src: https://github.com/geerlingguy/ansible-role-docker.git
+#  version: master
